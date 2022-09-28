@@ -1,0 +1,238 @@
+/* коліпр заголовку героя #000000
+колір заголовків #000000
+колір кнопок  #263238; 
+колір тексту #8F95A5 
+
+кольори логотипу #939393  
+#000000
+колір фону skills #F5F5F5
+
+*/
+
+
+
+
+body{
+    font-family: poppins, sans-serif ;
+color: #8F95A5  ;
+}
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}
+/*--------------------------- HEADER-------------------------- */
+
+.header {
+}
+.header-nav {
+}
+.header-logo {
+font-size: 36px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+color: #939393  ;
+}
+
+.header-Brit-logo {
+    color:#000000 ;
+}
+.header-list {
+}
+
+.header-item {
+
+}
+.header-link {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.5;
+color: #263238;
+}
+.header-btn {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1/5;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background-color: #ffffff;
+    color: #000000;
+}
+/* -----------------------------HERO--------------------------- */
+
+.hero {
+}
+.hero-title {
+font-weight: 600;
+font-size: 64px;
+line-height: 1.25;
+color: #000000;
+}
+.hero-photo {
+}
+.hero-content {
+font-size: 24px;
+line-height: 1.5;
+
+}
+.hero-btn {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+background: #263238;
+}
+/*----------------------- SKILLS------------------------------ */
+.skills {
+}
+.skills-title {
+font-weight: 600;
+font-size: 48px;
+line-height: 1.5;
+color: #000000;
+}
+.skills-list {
+}
+.skills-item {
+    background: #F5F5F5
+}
+.skills-photo {
+}
+.skills-name {
+font-weight: 600;
+font-size: 30px;
+line-height: 1.5;
+color: #263238;
+}
+.skills-content {
+    font-size: 16px;
+line-height: 1.5;
+}
+.skills-button {
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.5;
+color: #FFFFFF;
+background: #263238;
+}
+/* -------------------------ABOUT US--------------------------- */
+
+.about {
+}
+.about-title {
+font-weight: 600;
+font-size: 48px;
+line-height: 1.5;
+color: #000000;
+}
+.about-content {
+    font-size: 20px;
+line-height: 1.5;
+}
+.about-list {
+}
+
+.about-item {
+}
+/* --------------------------pricing--------------------------- */
+
+.pricing {
+}
+.pricing-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.5;
+    color: #000000;
+}
+.pricing-list {
+}
+.pricing-item {
+}
+.pricing-photo {
+}
+.pricing-name{
+font-weight: 600;
+font-size: 30px;
+line-height: 1.6;
+text-transform: capitalize;
+color: #263238;
+}
+.pricing-content{
+font-size: 20px;
+line-height: 1.5;
+}
+
+.precing-price{
+font-size: 24px;
+line-height: 1.5;
+text-align: center;
+color: #263238;
+}
+.precing-btn{
+    font-family: inherit;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 1.5;
+
+text-align: center;
+
+color: #546269;
+}
+/* -----------------------CONTACT-US--------------------------- */
+
+.contact-us-title {
+    font-weight: 600;
+font-size: 48px;
+line-height: 1.5;
+color: #000000;
+
+}
+.contact-us-content {
+    font-size: 20px;
+line-height: 1.5;
+}
+.contact-us-btn {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+background: #263238;
+}
+/* ----------------------------footer------------------------- */
+.footer-logo {
+    font-size: 36px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+color: #939393  ;
+}
+
+.footer-brit-logo {
+    color:#000000 
+}
+.footer-list {
+}
+
+.footer-item {
+}
+.footer-link {
+font-size: 24px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+color: #8F95A5;
+}
