@@ -9,12 +9,21 @@
 
 */
 
-
+:root{
+--hero-title-color:#000000;
+--title-color:#000000;
+--text-color: #8F95A5  ;
+--button-color: #263238;
+--logo-color:#939393;
+--background-skills-color:#F5F5F5 ;
+--background-btn-color:#ffffff ;
+--precing-btn-color: #546269;
+}
 
 
 body{
-    font-family: poppins, sans-serif ;
-color: #8F95A5  ;
+    font-family: "Poppins", sans-serif ;
+color:var(--text-color) ;
 }
 .link {
     text-decoration: none;
@@ -33,11 +42,11 @@ font-size: 36px;
 line-height: 1.5;
 display: flex;
 align-items: center;
-color: #939393  ;
+color:var(--logo-color) ;
 }
 
 .header-Brit-logo {
-    color:#000000 ;
+    color:var(--hero-title-color) ;
 }
 .header-list {
 }
@@ -49,18 +58,18 @@ color: #939393  ;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.5;
-color: #263238;
+color:var(--button-color);
 }
 .header-btn {
-    font-family: 'Poppins';
+    font-family: 'Poppins',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 1/5;
+    line-height: 1.5;
     text-align: center;
     letter-spacing: 0.03em;
-    background-color: #ffffff;
-    color: #000000;
+    background-color: var(--background-btn-color);
+    color: var(--title-color);
 }
 /* -----------------------------HERO--------------------------- */
 
@@ -70,7 +79,7 @@ color: #263238;
 font-weight: 600;
 font-size: 64px;
 line-height: 1.25;
-color: #000000;
+color: var(--hero-title-color);
 }
 .hero-photo {
 }
@@ -87,8 +96,8 @@ font-size: 36px;
 line-height: 1.5;
 text-align: center;
 letter-spacing: 0.03em;
-color: #FFFFFF;
-background: #263238;
+color: var(--background-btn-color) ;
+background: var(--button-color);
 }
 /*----------------------- SKILLS------------------------------ */
 .skills {
@@ -97,12 +106,12 @@ background: #263238;
 font-weight: 600;
 font-size: 48px;
 line-height: 1.5;
-color: #000000;
+color: var(--title-color);
 }
 .skills-list {
 }
 .skills-item {
-    background: #F5F5F5
+background-color:var(--background-skills-color);
 }
 .skills-photo {
 }
@@ -110,7 +119,7 @@ color: #000000;
 font-weight: 600;
 font-size: 30px;
 line-height: 1.5;
-color: #263238;
+color: var(--button-color);
 }
 .skills-content {
     font-size: 16px;
@@ -120,8 +129,8 @@ line-height: 1.5;
     font-weight: 500;
 font-size: 20px;
 line-height: 1.5;
-color: #FFFFFF;
-background: #263238;
+color:var(--background-btn-color) ;
+background: var(--button-color) ;
 }
 /* -------------------------ABOUT US--------------------------- */
 
@@ -131,7 +140,7 @@ background: #263238;
 font-weight: 600;
 font-size: 48px;
 line-height: 1.5;
-color: #000000;
+color: var(--title-color) ;
 }
 .about-content {
     font-size: 20px;
@@ -150,7 +159,7 @@ line-height: 1.5;
     font-weight: 600;
     font-size: 48px;
     line-height: 1.5;
-    color: #000000;
+    color: var(--title-color) ;
 }
 .pricing-list {
 }
@@ -163,7 +172,7 @@ font-weight: 600;
 font-size: 30px;
 line-height: 1.6;
 text-transform: capitalize;
-color: #263238;
+color: var(--button-color) ;
 }
 .pricing-content{
 font-size: 20px;
@@ -174,7 +183,7 @@ line-height: 1.5;
 font-size: 24px;
 line-height: 1.5;
 text-align: center;
-color: #263238;
+color:var(--button-color);
 }
 .precing-btn{
     font-family: inherit;
@@ -185,7 +194,7 @@ line-height: 1.5;
 
 text-align: center;
 
-color: #546269;
+color: var(--precing-btn-color);
 }
 /* -----------------------CONTACT-US--------------------------- */
 
@@ -193,7 +202,7 @@ color: #546269;
     font-weight: 600;
 font-size: 48px;
 line-height: 1.5;
-color: #000000;
+color: var(--title-color) ;
 
 }
 .contact-us-content {
@@ -208,8 +217,8 @@ font-size: 20px;
 line-height: 1.5;
 text-align: center;
 letter-spacing: 0.03em;
-color: #FFFFFF;
-background: #263238;
+color: var(--background-btn-color);
+background-color:var(--button-color);
 }
 /* ----------------------------footer------------------------- */
 .footer-logo {
@@ -217,11 +226,11 @@ background: #263238;
 line-height: 1.5;
 display: flex;
 align-items: center;
-color: #939393  ;
+color: var(--logo-color)  ;
 }
 
 .footer-brit-logo {
-    color:#000000 
+    color:var(--hero-title-color);
 }
 .footer-list {
 }
@@ -234,5 +243,5 @@ line-height: 1.5;
 display: flex;
 align-items: center;
 letter-spacing: 0.02em;
-color: #8F95A5;
+color: var(--text-color) ;
 }
